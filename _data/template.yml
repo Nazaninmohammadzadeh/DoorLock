@@ -9,3 +9,77 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+people:
+  - name: Mehmet Akif Ersoy
+    position: Backend Developer
+    pic: akif
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/johndoe
+      - title: github
+        url: https://github.com/johndoe
+
+  - name: Nazanin Mohammadzadeh
+    position: UI/UX Designer
+    pic: nazanin
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Muhammed Caliskan
+    position: UI/UX Designer
+    pic: muhammed
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Melis kilic 
+    position: UI/UX Designer
+    pic: melis
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Aysenur Navruz 
+    position: UI/UX Designer
+    pic: ayse
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Kamer 
+    position: UI/UX Designer
+    pic: kamer
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Elif Nur Cakici 
+    position: UI/UX Designer
+    pic: elif
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+
+  - name: Muharrem 
+    position: UI/UX Designer
+    pic: muharrem
+    social:
+      - title: linkedin
+        url: https://linkedin.com/in/janesmith
+      - title: dribbble
+        url: https://dribbble.com/janesmith
+

@@ -1,37 +1,52 @@
-<!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
+<!-- Services Section -->
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Galerİ</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
-    </section>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <!-- Image for E-Commerce -->
+                <img src="img/im3.jpg" alt="E-Commerce" class="img-fluid service-img" />
+                
+            </div>
+            <div class="col-md-4">
+                <!-- Image for Responsive Design -->
+                <img src="img/im4.jpg" alt="Responsive Design" class="img-fluid service-img" />
+               
+            </div>
+            <div class="col-md-4">
+                <!-- Image for Web Security -->
+                <img src="img/im1.jpg" alt="Web Security" class="img-fluid service-img" />
+                
+            </div>
+            <div class="col-md-4">
+                <!-- Image for E-Commerce -->
+                <img src="img/im2.jpg" alt="E-Commerce" class="img-fluid service-img" />
+                
+            </div>
+            <div class="col-md-4">
+                <!-- Image for E-Commerce -->
+                <img src="img/im1.jpg" alt="E-Commerce" class="img-fluid service-img" />
+                
+            </div>
+            <div class="col-md-4">
+                <!-- Image for E-Commerce -->
+                <img src="img/im1.jpg" alt="E-Commerce" class="img-fluid service-img" />
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CSS to fix image scaling -->
+<style>
+    .service-img {
+        max-width: 100%; /* Ensures the image doesn't overflow */
+        height: auto;    /* Maintains aspect ratio */
+        margin-bottom: 20px; /* Optional: Adds space below the image */
+    }
+</style>

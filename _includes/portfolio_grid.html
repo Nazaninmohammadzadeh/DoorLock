@@ -1,29 +1,55 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio" class="bg-light-gray" style="background-color:#222 ; color: rgb(237, 237, 237);">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Hakkında</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
-            <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
+            Bu proje, Mikroişlemciler Dersi kapsamında geliştirilen bir akıllı giriş-çıkış kontrol sistemidir. Sistem, modern yüz tanıma algoritmalarını kullanarak güvenliği artırmayı ve giriş-çıkış hareketlerini gerçek zamanlı olarak izlemeyi hedefler.
+            <h2>Sİstemİn Temel Bİleşenlerİ</h2>
+            <ul style="list-style-type:disc ;">
+                <li>Raspberry Pi: Projenin ana kontrol birimi olarak kullanılır. Kameralardan alınan görüntüleri işler ve yüz tanıma algoritmasını çalıştırır.</li>
+                <li>Çift Kamera Sistemi:
+                    <ul>
+                        <li>Giriş Kamerası: Giriş yapan kişileri denetler, yüz tanıma işlemini gerçekleştirir ve yetkisiz girişleri engeller.</li>
+                        <li>Çıkış Kamerası: Çıkan kişilerin yüzlerini tanır ve hareketlerini kaydeder.
+                            Mobil Uygulama:</li>
+                    </ul>
+                    </li>
+                <li>Gerçek Zamanlı İzleme: Giriş ve çıkış hareketleri anlık olarak izlenebilir.
+                    Kullanıcı Türlerine Özel Arayüz:
+                    <ul>
+                        <li>Güvenlik Kullanıcısı: Hareket takibini yapabilir, sistemden uyarılar alabilir.</li>
+                        <li>Admin: Kullanıcıları yönetebilir, sistem ayarlarını güncelleyebilir ve geçmiş kayıtları analiz edebilir.</li>
+                    </ul>
+                
+                </li>
+            </ul>
+
+            <h2>Teknİk Özellİkler</h2>
+            <ul style="list-style-type:disc ;">
+                <li>Yüz Tanıma Algoritması: Raspberry Pi üzerinde çalışan yapay zeka tabanlı bir yüz tanıma modeli, giriş-çıkış yapan kişilerin kimliğini doğrular. Bu sayede yalnızca yetkili kişiler sisteme erişebilir.</li>
+                <li>Gerçek Zamanlı Veri İşleme: Kameralardan alınan görüntüler hızlıca işlenir ve mobil uygulamaya aktarılır.</li>
+                <li>Veri Güvenliği: Giriş-çıkış kayıtları güvenli bir şekilde depolanır ve yalnızca admin tarafından erişilebilir.</li>
+                <li>Enerji Verimliliği: Raspberry Pi ve diğer donanımlar düşük enerji tüketimiyle çalışacak şekilde optimize edilmiştir.</li>
+            </ul>
+
+            
+            
+            
+            
+
+            <h2>Kullanım Alanları</h2>
+            <ul style="list-style-type:disc ;">
+                <li>Ev, ofis veya kampüs gibi alanlarda güvenli giriş-çıkış yönetimi.</li>
+                <li>Yetkili ve yetkisiz kişilerin ayrımının yapılması.</li>
+                <li>Giriş ve çıkış hareketlerinin kayıt altına alınarak analiz edilmesi.
+                </li>
+            </ul>
+
+                
+                
+                
+           Bu proje, modern güvenlik ihtiyaçlarına cevap vermek için geliştirilmiş yenilikçi bir çözüm sunmaktadır. Hem kullanıcı dostu arayüzleri hem de güçlü donanım-yazılım entegrasyonu sayesinde, giriş-çıkış süreçlerini güvenilir ve verimli bir şekilde yönetmeye olanak tanır.
         </div>
     </section>
