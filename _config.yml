@@ -1,5 +1,5 @@
-url: "https://nazaninmohammadzadeh.github.io"
-baseurl: "/DoorLock"
+url: https://nazaninmohammadzadeh.github.io
+baseurl: /DoorLock
 
 
 theme: agency-jekyll-theme

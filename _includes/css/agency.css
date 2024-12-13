@@ -855,7 +855,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background-color: #f1f1f1;
+    
     background: #{{ site.data.template.color.primary }};
 }
 
